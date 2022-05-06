@@ -1,0 +1,41 @@
+//colors
+$gray: gray;
+$white: white;
+$darkBlue: rgb(60, 60, 121);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: $darkBlue;
+}
+
+#scene {
+    width: 400px;
+    height: 400px;
+    background-color: $gray;
+    margin: auto;
+    position: relative;
+}
+
+#score {
+    color: $gray;
+    background-color: $white;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 10px;
+}
