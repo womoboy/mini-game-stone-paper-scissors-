@@ -70,4 +70,22 @@ body {
   background-color: orange;
 }
 
+#higthScoreFrame {
+  color: white;
+  margin: 0 auto;
+  background-color: green;
+  padding: 1rem;
+  width: 170px;
+  text-align: center;
+}
+
+#higthScoreFrame p {
+  display: inline;
+}
+
+#status {
+  color: white;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
